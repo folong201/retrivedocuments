@@ -52,10 +52,6 @@ documentConsumer.on('message', function (kafkaMessage) {
 });
 
 
-
-
-
-
 app.listen(3000, () => {
     console.log('Serveur à l\'écoute du port locahost:3000');
 });
